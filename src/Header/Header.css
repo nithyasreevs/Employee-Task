@@ -1,0 +1,52 @@
+
+.logo{
+    background-color: darkblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.logo h2{
+    text-align: left;
+    padding: 10px;
+}
+.header{
+    background-color: darkblue;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0 7px 0;
+    
+   
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+.logout {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    font-size: 14px;
+
+  }
+  
+  .logout:hover {
+    background-color: white;
+    color: black;
+}
+
+    /* border: 2px solid #e7e7e7; */
+
+    .containerName{
+        color: black;
+        height: 30px;
+        width: 100%;
+        margin-left: 50px;
+     }
+     .containerName a{
+        color: black;
+         text-decoration: none;
+         padding: 20px;
+         font-size: 22px;
+         font-weight: bolder;
+     }
+     

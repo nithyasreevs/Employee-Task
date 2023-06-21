@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+  .btn_addemployee {
+    text-align: center;
+  }
+  .addemployee{
+    background-color: blue; 
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 4px 2px 5px 2px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.table_container table{
+  width: 100%;
+  border-collapse: collapse;
+}
+#items td .btn_group .editdelete{
+  background-color: aqua;
+}
+#total td {
+  padding: 4px;
+  text-align: right;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.table_container table, th, td {
+  border: 1px solid;
+}
+.table_container table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table_container table th{
+  /* height: 70px; */
+  background-color: lightgray;
+  padding: 15px;
+}
+.table_container table td{
+  height: 25px;
+  padding: 7px;
+  text-align: center;
+}
+.table_container table td img{
+  width: 100%;
+  height: 100%;
+}
+.btn_group{
+  display: flex;
+  justify-content: space-evenly;
+}
+.editdelete{
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: skyblue;
+}
+.displayData{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.displayData table{
+  width: 90%;
+}
+.dashboard h3{
+  padding:2px;
+  text-align: left;
+  color: white;
+  background-color: lightblue;
+}
